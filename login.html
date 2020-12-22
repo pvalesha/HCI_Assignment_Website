@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment 1 and 2</title>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="header">
+    <header>
+        <h1> Calories Flip</h1><center>
+        <nav>
+            <a class="inactive" href="ass12.html">Home</a>
+            <a class="inactive" href="about.html">About</a>
+            <a class="inactive" href="feedback.html">Feedback</a>
+            <a class="active" href="login.html">login</a>
+
+        </nav></center><hr>
+        <center>
+                
+        
+                <div class="container backk">
+                    <div class="myform asd"><H3> Registration Form</H3>
+                    <form onsubmit="return validation()">
+                        <div class="form-group">
+                        <label for="name">Your Name*</label>
+                        <input type="text" class="form-control" id="name" placeholder="your name"  ><p style="font-size:12px;">(7 to 30 Characters including No.s)</p><br>
+                        <span id="usererror" class="text-dabger font-weight-bold"></span>
+                    </div><div class="form-group">
+                        <label for="email">Your email*</label>
+                        <input type="email" class="form-control" id="email" placeholder="your email" ><p style="font-size:12px;">(abc3@pqr.com/.co/.in Format)</p><br>
+                        <span id="emailerror" class="text-dabger font-weight-bold"></span>
+                    </div><div class="form-group">
+                    <label for="password">Password*</label>
+                        <input type="password" class="form-control" id="password" placeholder="password" ><p style="font-size:12px;">(6 to 20 Characters , a uppercase letter,a number)</p><br>
+                        <span id="passworderror" class="text-dabger font-weight-bold"></span>
+                    </div><div class="form-group">
+                    <label for="contact">Contact No*</label>
+                        <input type="tel" class="form-control" id="contact" placeholder="Contact No." ><p style="font-size:12px;">(10 Numbers)</p><br>
+                        <span id="mobileerror" class="text-dabger font-weight-bold"></span>
+                    </div><br><br>
+                        <button type="submit" class="btn btn-primary aaaa"> Submit</button>
+                    </form>
+                </div></div>
+                
+                <script type="text/javascript">
+                function validation(){
+                
+                    var username = document.getElementById('name').value;
+            
+                    var usercheck=/^[a-zA-Z]+[a-zA-Z0-9_]{7,30}$/;
+            
+                    if(usercheck.test(username)){
+                        document.getElementById('usererror').innerHTML=" ";
+            
+                    }else{
+                        document.getElementById('usererror').innerHTML=" Username is Invalid ";
+                        return false;
+                        }
+                        
+            
+                
+            
+                
+            
+                    var email = document.getElementById('email').value;
+                    var emailcheck=/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+            
+                    if(emailcheck.test(email)){
+                        document.getElementById('emailerror').innerHTML=" ";
+            
+                    }else{
+                        document.getElementById('emailerror').innerHTML=" EmailId is Invalid ";
+                        return false;
+                        }
+               
+                    
+                
+                    var passs = document.getElementById('password').value;
+                    var passwordcheck=/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,20}$/;
+            
+                    if(passwordcheck.test(passs)){
+                        document.getElementById('passworderror').innerHTML=" ";
+            
+                    }else{
+                        document.getElementById('passworderror').innerHTML=" password is Invalid  enter  a Uppercase a Number";
+                        return false;
+                        }
+                
+                    
+                
+                    var contact1 = document.getElementById('contact').value;
+                
+                    var contactcheck=/^[0-9]{10}$/;     
+            
+                    if(contactcheck.test(contact1)){
+                        document.getElementById('mobileerror').innerHTML=" ";
+            
+                    }else{
+                        document.getElementById('mobileerror').innerHTML=" contact no. is Invalid ";
+                        return false;
+                        }
+                
+                alert("Form Submitted");
+                    }   
+                </script>
+                <footer>
+                    <h1 id="footer"><center>Contact</center> </h1>
+                    <nav class="links"><center>
+                        <a href="https://www.instagram.com/_pan_acea_/"><img class="imglink"src="instagram.svg" alt"insta"></a>
+                        <a href="https://www.facebook.com/Calories_flip-104264427972080/"><img class="imglink"src="facebook.svg" alt"insta"></a>
+                        <a href="mailto:priyankavalesha14@gmail.com"><img class="imglink"src="email.svg" alt"insta"></a>
+                        <a href="tel:+917030546906"><img class="imglink"src="end-call.svg" alt"insta"></a>
+                        <a href="https://api.whatsapp.com/send?phone=917030546906&text=&source=&data=&app_absent="><img class="imglink"src="whatsapp.svg" alt"insta"></a></center></nav>
+                </footer>
+                </body>
+            </html>
+            
