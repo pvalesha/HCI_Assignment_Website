@@ -1,0 +1,101 @@
+a{
+    text-decoration: none;
+    color:#ffffff;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+a:hover{
+    color:rgb(255, 61, 0);
+}
+
+.active{
+    color:rgb(255, 61, 0);
+}
+
+nav{
+    margin: 5px 50px 5px 50px;
+
+    font-size: 130%;
+}
+
+body{
+    margin:0;
+}
+.header{
+    background-image: url("backg.jpg");
+    opacity: 0.9;
+    background-size: cover;
+    height:700px;
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+}
+
+h1{
+    margin-left:150px;
+    margin-top: 20px;
+    color:#ffffff;
+    font-family: cursive;
+    font-size: 35px;
+}
+article{
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+p{
+    color:#000000;
+    font-family: inherit;
+    font-size: 15px;
+    margin:12px 12px 0px 12px;
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+    font-variant: inherit;
+    font-weight: 150;
+
+}
+.blogpic{
+    width: 40%;
+    margin:12px 12px 0px 12px;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+    float:right;
+}
+.bb{
+   margin: 15% 45%;
+   font-size: 400%;
+   font-family: monospace;
+}
+.bb1{margin: 15% 20%;
+font-size: 350%;
+font-family: monospace;
+
+
+}
+footer{
+    background-color: rgba(207, 206, 206, 0.75);
+    height: 15%;
+    margin: 0px;
+
+
+}
+#footer{
+    margin: 0%;
+    font-size: 25px;
+    font-family: monospace;
+    color:#000000;
+    text-align: center;
+    display: block;
+}
+.imglink{
+    width: 35px;
+    display: inline-grid;
+    padding:0px;
+    margin-top: 0px;
+}

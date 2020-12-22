@@ -1,0 +1,106 @@
+a{
+    text-decoration: none;
+    color:#ffffff;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+    display: inline-flex;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+a:hover{
+    color:rgb(255, 61, 0);
+}
+
+.active{
+    color:rgb(255, 61, 0);
+}
+
+nav{
+    margin: 5px 50px 5px 50px;
+
+    font-size: 130%;
+
+}
+
+body{
+    margin:0;
+}
+.header{
+    background-image: url("backg.jpg");
+    opacity: 0.9;
+    background-size: cover;
+    height:700px;
+    margin: 0px;
+    padding: 5px;
+    align-items: center;
+}
+
+h1{
+    margin-left:150px;
+    margin-top: 20px;
+    color:#ffffff;
+    font-family: cursive;
+    font-size: 35px;
+}
+
+.blog{
+    text-decoration: none;
+    color:#000000;
+    margin-left: 22px;
+    padding: 10px;
+    width:96%;
+    text-align: center;
+    display: inline-grid;
+    font-weight: bold;
+    font-family: cursive;
+    background-color: rgba(207, 206, 206, 0.75);
+    box-shadow: 4px 4px 8px #ccc;
+}
+.blog:hover{
+    color:rgb(255, 61, 0);
+}
+
+p{
+    color:#000000;
+    font-family: cursive;
+    font-size: 15px;
+}
+.blogpic{
+    width: 100%;
+    margin:12px 12px 0px 12px;
+    padding: 10px 10px 0px 10px;
+    display: inline-grid;
+}
+article{
+    display: inline-grid;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+
+}
+.bb{
+    margin:15% 45%;
+    font-size: 65px;
+    font-family: monospace;}
+footer{
+    background-color: rgba(207, 206, 206, 0.75);
+    height: 15%;
+    margin: 0px;
+
+
+}
+#footer{
+    margin: 0%;
+    font-size: 25px;
+    font-family: monospace;
+    color:#000000;
+    text-align: center;
+    display: block;
+}
+.imglink{
+    width: 35px;
+    display: inline-grid;
+    padding:0px;
+    margin-top: 0px;
+}
